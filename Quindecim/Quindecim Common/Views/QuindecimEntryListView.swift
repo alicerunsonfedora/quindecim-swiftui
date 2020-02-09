@@ -9,15 +9,16 @@
 import SwiftUI
 
 struct QuindecimEntryListView: View {
+    var post: QuindecimWPFeedEntry
     var body: some View {
         HStack {
             VStack(alignment: .leading, spacing: 2.0) {
-                Text("Test Article")
+                Text(post.title.rendered)
                     .font(.headline)
                     .bold()
-                Text("I am writing a test view of some kind. Don't worry, nothing's on fire yet.")
+                Text(post.excerpt.rendered)
                 HStack {
-                    Text("Jibril Howard")
+                    Text(String(post.author))
                         .font(.caption)
                         .foregroundColor(.white)
                 }
@@ -25,7 +26,7 @@ struct QuindecimEntryListView: View {
                     .padding(.horizontal, 8.0)
                     .background(Color.gray)
                     .cornerRadius(4.0)
-                Text("20 Janurary 2020")
+                Text(post.date.description)
                     .font(.caption)
                     .foregroundColor(.gray)
             }
@@ -35,8 +36,16 @@ struct QuindecimEntryListView: View {
 
 #if DEBUG
 struct QuindecimEntryListView_Previews: PreviewProvider {
+    @ObservedObject static var feed = QuindecimFeedFetcher()
     static var previews: some View {
-        QuindecimEntryListView()
+        VStack {
+            Text("E")
+            List(feed.posts) { post in
+                VStack {
+                    QuindecimEntryListView(post: post)
+                }
+            }
+        }
     }
 }
 #endif

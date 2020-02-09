@@ -30,6 +30,10 @@
 		BF102BCB23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BC923F094FA00CAB6EA /* QuindecimWPRenderedField.swift */; };
 		BF102BCD23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */; };
 		BF102BCE23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */; };
+		BF102BD323F0982300CAB6EA /* QuindecimArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD223F0982300CAB6EA /* QuindecimArticleView.swift */; };
+		BF102BD423F0982300CAB6EA /* QuindecimArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD223F0982300CAB6EA /* QuindecimArticleView.swift */; };
+		BF102BD723F09C9800CAB6EA /* QuindecimFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */; };
+		BF102BD823F09C9800CAB6EA /* QuindecimFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,8 @@
 		BF102BC623F0945100CAB6EA /* QuindecimWPFeedEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPFeedEntry.swift; sourceTree = "<group>"; };
 		BF102BC923F094FA00CAB6EA /* QuindecimWPRenderedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPRenderedField.swift; sourceTree = "<group>"; };
 		BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPArticle.swift; sourceTree = "<group>"; };
+		BF102BD223F0982300CAB6EA /* QuindecimArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimArticleView.swift; sourceTree = "<group>"; };
+		BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimFeed.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 		BF102BA323F0803A00CAB6EA /* Quindecim Common */ = {
 			isa = PBXGroup;
 			children = (
+				BF102BD523F09C8200CAB6EA /* Observables */,
 				BF102BC523F0943D00CAB6EA /* Models */,
 				BF102BAB23F0838900CAB6EA /* Test Data */,
 				BF102BA523F0804F00CAB6EA /* Views */,
@@ -185,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				BF102B9423F07FA500CAB6EA /* ContentView.swift */,
+				BF102BD223F0982300CAB6EA /* QuindecimArticleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -213,6 +221,14 @@
 				BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		BF102BD523F09C8200CAB6EA /* Observables */ = {
+			isa = PBXGroup;
+			children = (
+				BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */,
+			);
+			path = Observables;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,7 +345,9 @@
 			files = (
 				BF102B7723F07F4400CAB6EA /* AppDelegate.swift in Sources */,
 				BF102BB623F0859800CAB6EA /* QuindecimEntryListView.swift in Sources */,
+				BF102BD723F09C9800CAB6EA /* QuindecimFeed.swift in Sources */,
 				BF102B7923F07F4400CAB6EA /* SceneDelegate.swift in Sources */,
+				BF102BD323F0982300CAB6EA /* QuindecimArticleView.swift in Sources */,
 				BF102BCD23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */,
 				BF102B7B23F07F4400CAB6EA /* ContentView.swift in Sources */,
 				BF102BCA23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */,
@@ -342,7 +360,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF102BC823F0945100CAB6EA /* QuindecimWPFeedEntry.swift in Sources */,
+				BF102BD823F09C9800CAB6EA /* QuindecimFeed.swift in Sources */,
 				BF102BCB23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */,
+				BF102BD423F0982300CAB6EA /* QuindecimArticleView.swift in Sources */,
 				BF102B9523F07FA500CAB6EA /* ContentView.swift in Sources */,
 				BF102BCE23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */,
 				BF102B9323F07FA500CAB6EA /* AppDelegate.swift in Sources */,

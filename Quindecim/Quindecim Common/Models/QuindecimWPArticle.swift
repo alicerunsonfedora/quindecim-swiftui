@@ -20,6 +20,3 @@ struct QuindecimWPArticle: Decodable {
     var categories: [Int?]
 }
 
-#if DEBUG
-let testArticle = try! JSONDecoder().decode(QuindecimWPArticle.self, from: (NSData(contentsOfFile: "article.json")! as Data))
-#endif

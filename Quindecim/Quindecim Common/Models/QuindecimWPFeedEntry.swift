@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct QuindecimWPFeedEntry: Decodable {
+struct QuindecimWPFeedEntry: Decodable, Identifiable {
     var id: Int
     var date: Date
     var slug: String
