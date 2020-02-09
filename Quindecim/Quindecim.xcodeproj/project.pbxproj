@@ -18,12 +18,18 @@
 		BF102B9723F07FAA00CAB6EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF102B9623F07FAA00CAB6EA /* Assets.xcassets */; };
 		BF102B9A23F07FAA00CAB6EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF102B9923F07FAA00CAB6EA /* Preview Assets.xcassets */; };
 		BF102B9D23F07FAA00CAB6EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF102B9B23F07FAA00CAB6EA /* Main.storyboard */; };
-		BF102BA723F0806800CAB6EA /* QuindecimEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BA623F0806800CAB6EA /* QuindecimEntry.swift */; };
-		BF102BA823F0806800CAB6EA /* QuindecimEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BA623F0806800CAB6EA /* QuindecimEntry.swift */; };
 		BF102BAD23F0839400CAB6EA /* article.json in Resources */ = {isa = PBXBuildFile; fileRef = BF102BAC23F0839400CAB6EA /* article.json */; };
 		BF102BAE23F0839400CAB6EA /* article.json in Resources */ = {isa = PBXBuildFile; fileRef = BF102BAC23F0839400CAB6EA /* article.json */; };
-		BF102BB023F083BD00CAB6EA /* QuindecimWPRendered.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BAF23F083BD00CAB6EA /* QuindecimWPRendered.swift */; };
-		BF102BB123F083BD00CAB6EA /* QuindecimWPRendered.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BAF23F083BD00CAB6EA /* QuindecimWPRendered.swift */; };
+		BF102BB323F0857B00CAB6EA /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = BF102BB223F0857B00CAB6EA /* feed.json */; };
+		BF102BB423F0857B00CAB6EA /* feed.json in Resources */ = {isa = PBXBuildFile; fileRef = BF102BB223F0857B00CAB6EA /* feed.json */; };
+		BF102BB623F0859800CAB6EA /* QuindecimEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BB523F0859800CAB6EA /* QuindecimEntryListView.swift */; };
+		BF102BB723F0859800CAB6EA /* QuindecimEntryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BB523F0859800CAB6EA /* QuindecimEntryListView.swift */; };
+		BF102BC723F0945100CAB6EA /* QuindecimWPFeedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BC623F0945100CAB6EA /* QuindecimWPFeedEntry.swift */; };
+		BF102BC823F0945100CAB6EA /* QuindecimWPFeedEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BC623F0945100CAB6EA /* QuindecimWPFeedEntry.swift */; };
+		BF102BCA23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BC923F094FA00CAB6EA /* QuindecimWPRenderedField.swift */; };
+		BF102BCB23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BC923F094FA00CAB6EA /* QuindecimWPRenderedField.swift */; };
+		BF102BCD23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */; };
+		BF102BCE23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +49,12 @@
 		BF102B9C23F07FAA00CAB6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF102B9E23F07FAA00CAB6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF102B9F23F07FAA00CAB6EA /* Quindecim_for_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quindecim_for_macOS.entitlements; sourceTree = "<group>"; };
-		BF102BA623F0806800CAB6EA /* QuindecimEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimEntry.swift; sourceTree = "<group>"; };
 		BF102BAC23F0839400CAB6EA /* article.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = article.json; sourceTree = "<group>"; };
-		BF102BAF23F083BD00CAB6EA /* QuindecimWPRendered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPRendered.swift; sourceTree = "<group>"; };
+		BF102BB223F0857B00CAB6EA /* feed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
+		BF102BB523F0859800CAB6EA /* QuindecimEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimEntryListView.swift; sourceTree = "<group>"; };
+		BF102BC623F0945100CAB6EA /* QuindecimWPFeedEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPFeedEntry.swift; sourceTree = "<group>"; };
+		BF102BC923F094FA00CAB6EA /* QuindecimWPRenderedField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPRenderedField.swift; sourceTree = "<group>"; };
+		BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPArticle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +82,7 @@
 				BF102B7523F07F4400CAB6EA /* Quindecim */,
 				BF102B9123F07FA500CAB6EA /* Quindecim for macOS */,
 				BF102B7423F07F4400CAB6EA /* Products */,
+				BF102BC223F0937700CAB6EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -149,25 +159,17 @@
 		BF102BA323F0803A00CAB6EA /* Quindecim Common */ = {
 			isa = PBXGroup;
 			children = (
+				BF102BC523F0943D00CAB6EA /* Models */,
 				BF102BAB23F0838900CAB6EA /* Test Data */,
 				BF102BA523F0804F00CAB6EA /* Views */,
-				BF102BA423F0804600CAB6EA /* Models */,
 			);
 			path = "Quindecim Common";
-			sourceTree = "<group>";
-		};
-		BF102BA423F0804600CAB6EA /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				BF102BA623F0806800CAB6EA /* QuindecimEntry.swift */,
-				BF102BAF23F083BD00CAB6EA /* QuindecimWPRendered.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		BF102BA523F0804F00CAB6EA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BF102BB523F0859800CAB6EA /* QuindecimEntryListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,8 +193,26 @@
 			isa = PBXGroup;
 			children = (
 				BF102BAC23F0839400CAB6EA /* article.json */,
+				BF102BB223F0857B00CAB6EA /* feed.json */,
 			);
 			path = "Test Data";
+			sourceTree = "<group>";
+		};
+		BF102BC223F0937700CAB6EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF102BC523F0943D00CAB6EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF102BC623F0945100CAB6EA /* QuindecimWPFeedEntry.swift */,
+				BF102BC923F094FA00CAB6EA /* QuindecimWPRenderedField.swift */,
+				BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,6 +231,8 @@
 			dependencies = (
 			);
 			name = Quindecim;
+			packageProductDependencies = (
+			);
 			productName = Quindecim;
 			productReference = BF102B7323F07F4400CAB6EA /* Quindecim for iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -228,6 +250,8 @@
 			dependencies = (
 			);
 			name = "Quindecim for macOS";
+			packageProductDependencies = (
+			);
 			productName = "Quindecim for macOS";
 			productReference = BF102B9023F07FA500CAB6EA /* Quindecim for macOS.app */;
 			productType = "com.apple.product-type.application";
@@ -259,6 +283,8 @@
 				Base,
 			);
 			mainGroup = BF102B6A23F07F4400CAB6EA;
+			packageReferences = (
+			);
 			productRefGroup = BF102B7423F07F4400CAB6EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -276,6 +302,7 @@
 			files = (
 				BF102BAD23F0839400CAB6EA /* article.json in Resources */,
 				BF102B8323F07F4600CAB6EA /* LaunchScreen.storyboard in Resources */,
+				BF102BB323F0857B00CAB6EA /* feed.json in Resources */,
 				BF102B8023F07F4600CAB6EA /* Preview Assets.xcassets in Resources */,
 				BF102B7D23F07F4600CAB6EA /* Assets.xcassets in Resources */,
 			);
@@ -287,6 +314,7 @@
 			files = (
 				BF102BAE23F0839400CAB6EA /* article.json in Resources */,
 				BF102B9D23F07FAA00CAB6EA /* Main.storyboard in Resources */,
+				BF102BB423F0857B00CAB6EA /* feed.json in Resources */,
 				BF102B9A23F07FAA00CAB6EA /* Preview Assets.xcassets in Resources */,
 				BF102B9723F07FAA00CAB6EA /* Assets.xcassets in Resources */,
 			);
@@ -299,11 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF102BA723F0806800CAB6EA /* QuindecimEntry.swift in Sources */,
-				BF102BB023F083BD00CAB6EA /* QuindecimWPRendered.swift in Sources */,
 				BF102B7723F07F4400CAB6EA /* AppDelegate.swift in Sources */,
+				BF102BB623F0859800CAB6EA /* QuindecimEntryListView.swift in Sources */,
 				BF102B7923F07F4400CAB6EA /* SceneDelegate.swift in Sources */,
+				BF102BCD23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */,
 				BF102B7B23F07F4400CAB6EA /* ContentView.swift in Sources */,
+				BF102BCA23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */,
+				BF102BC723F0945100CAB6EA /* QuindecimWPFeedEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,10 +341,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF102BC823F0945100CAB6EA /* QuindecimWPFeedEntry.swift in Sources */,
+				BF102BCB23F094FA00CAB6EA /* QuindecimWPRenderedField.swift in Sources */,
 				BF102B9523F07FA500CAB6EA /* ContentView.swift in Sources */,
-				BF102BA823F0806800CAB6EA /* QuindecimEntry.swift in Sources */,
+				BF102BCE23F0967900CAB6EA /* QuindecimWPArticle.swift in Sources */,
 				BF102B9323F07FA500CAB6EA /* AppDelegate.swift in Sources */,
-				BF102BB123F083BD00CAB6EA /* QuindecimWPRendered.swift in Sources */,
+				BF102BB723F0859800CAB6EA /* QuindecimEntryListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +423,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -445,6 +478,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
