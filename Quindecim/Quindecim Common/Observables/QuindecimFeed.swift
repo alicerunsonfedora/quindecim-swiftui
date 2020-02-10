@@ -26,7 +26,7 @@ class QuindecimFeedFetcher: ObservableObject {
                         self.posts = decodedPosts
                     }
                 } else {
-                    print("No data could be found.")
+                    print("No data could be found or the resource is inaccessible.")
                 }
             } catch {
                 print("An error occurred when fetching the data.")

@@ -34,6 +34,7 @@
 		BF102BD423F0982300CAB6EA /* QuindecimArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD223F0982300CAB6EA /* QuindecimArticleView.swift */; };
 		BF102BD723F09C9800CAB6EA /* QuindecimFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */; };
 		BF102BD823F09C9800CAB6EA /* QuindecimFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */; };
+		BFAD43D723F0DEF8007F4D48 /* QuindecimArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD43D623F0DEF8007F4D48 /* QuindecimArticle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		BF102BCC23F0967900CAB6EA /* QuindecimWPArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimWPArticle.swift; sourceTree = "<group>"; };
 		BF102BD223F0982300CAB6EA /* QuindecimArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimArticleView.swift; sourceTree = "<group>"; };
 		BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimFeed.swift; sourceTree = "<group>"; };
+		BFAD43D623F0DEF8007F4D48 /* QuindecimArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimArticle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +227,7 @@
 			isa = PBXGroup;
 			children = (
 				BF102BD623F09C9800CAB6EA /* QuindecimFeed.swift */,
+				BFAD43D623F0DEF8007F4D48 /* QuindecimArticle.swift */,
 			);
 			path = Observables;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			files = (
 				BF102B7723F07F4400CAB6EA /* AppDelegate.swift in Sources */,
 				BF102BB623F0859800CAB6EA /* QuindecimEntryListView.swift in Sources */,
+				BFAD43D723F0DEF8007F4D48 /* QuindecimArticle.swift in Sources */,
 				BF102BD723F09C9800CAB6EA /* QuindecimFeed.swift in Sources */,
 				BF102B7923F07F4400CAB6EA /* SceneDelegate.swift in Sources */,
 				BF102BD323F0982300CAB6EA /* QuindecimArticleView.swift in Sources */,
