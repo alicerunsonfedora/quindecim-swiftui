@@ -9,8 +9,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var feed = QuindecimFeedFetcher()
+    
     var body: some View {
-        Text("Hello, World!")
+        HStack {
+            List(feed.posts) { entry in
+                QuindecimEntryListView(post: entry)
+            }
+            Text("E")
+        }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }

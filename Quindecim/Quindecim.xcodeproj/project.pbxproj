@@ -52,7 +52,6 @@
 		BF102B9923F07FAA00CAB6EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF102B9C23F07FAA00CAB6EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF102B9E23F07FAA00CAB6EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BF102B9F23F07FAA00CAB6EA /* Quindecim_for_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Quindecim_for_macOS.entitlements; sourceTree = "<group>"; };
 		BF102BAC23F0839400CAB6EA /* article.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = article.json; sourceTree = "<group>"; };
 		BF102BB223F0857B00CAB6EA /* feed.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = feed.json; sourceTree = "<group>"; };
 		BF102BB523F0859800CAB6EA /* QuindecimEntryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuindecimEntryListView.swift; sourceTree = "<group>"; };
@@ -148,7 +147,6 @@
 				BF102B9623F07FAA00CAB6EA /* Assets.xcassets */,
 				BF102B9B23F07FAA00CAB6EA /* Main.storyboard */,
 				BF102B9E23F07FAA00CAB6EA /* Info.plist */,
-				BF102B9F23F07FAA00CAB6EA /* Quindecim_for_macOS.entitlements */,
 				BF102B9823F07FAA00CAB6EA /* Preview Content */,
 			);
 			path = "Quindecim for macOS";
